@@ -1,0 +1,17 @@
+
+print("rutina diaria")
+print("levantarse a las 7 de la mañana")
+print("arreglar el cuarto")
+print("desayunar")
+print("hacer ejercicio")
+print("desayunar")
+print("bañarse")
+print("cambiarse")
+print("entrar a clases")
+print("almorzar")
+print("seguir en clase")
+print("terminar las clases")
+print("ir a trabajar")
+print("terminar de trabajar")
+print("irse a dormir")
+
