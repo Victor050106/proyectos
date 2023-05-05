@@ -16,6 +16,11 @@ if camino == ("I"):
              print("eres quemado, GAME OVER")
         elif puerta=="V":
             print("eres devorado por bestias, GAME OVER")
+        else :
+            print("elije una de las opciones que se te pide")
+            print("vuelve a empezar")
+            exit()
+
     if noe =="N":
         print("atacado por una tribu, GAME OVER")
 if camino == "D":

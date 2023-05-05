@@ -1,9 +1,9 @@
-# Crear una lista de palabras
-palabras = ("hola", "adios", "casa", "perro", "gato", "coche","roberto carlos","coca Cola")
+# Crea runa lista de palabras
+palabras = input("ingrese las palabras para filtrar").lower().split()
 
 def empieza_por_letra(palabra, letra):
-  return palabra.startswith(letra)
+  return palabra .startswith(letra)
 
-palabras_filtradas = list(filter(lambda x: empieza_por_letra(x, "c"), palabras))
+palabras_filtradas = [p for p in palabras if p.startswith("c")]
 
 print(palabras_filtradas)
